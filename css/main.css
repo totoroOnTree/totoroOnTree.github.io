@@ -1943,7 +1943,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fab08f;
+  background: #fa46ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3154,6 +3154,20 @@ pre .javascript .function {
 }
 .site-author-image {
   border-width: 0;
+}
+.posts-expand .post-tags a,
+.tag-cloud a {
+  background-color: #f2f2f2;
+  color: #777 !important;
+  padding: 0 5px;
+  border-width: 0;
+}
+.page-post-detail .post .post-body {
+  border-bottom: 1px #ddd dashed;
+}
+.post-button>.btn {
+  color: #db907b;
+  border: 2px solid #db907b;
 }
 @-moz-keyframes octocat-wave {
   0%, 100% {
