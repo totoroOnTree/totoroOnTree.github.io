@@ -1943,7 +1943,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fa46ff;
+  background: #fbffa4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3114,6 +3114,9 @@ pre .javascript .function {
 .headband {
   height: 0;
 }
+.site-description {
+  color: #666;
+}
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
@@ -3168,6 +3171,10 @@ pre .javascript .function {
 .post-button>.btn {
   color: #db907b;
   border: 2px solid #db907b;
+}
+.post-button>.btn:hover {
+  color: #fff;
+  background-color: #db907b;
 }
 @-moz-keyframes octocat-wave {
   0%, 100% {
